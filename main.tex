@@ -1,0 +1,67 @@
+
+\documentclass[a4paper,man,british]{apa6}
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+
+% maps apacite commands to biblatex commands
+\let \citeNP \cite
+\let \citeA \textcite
+\let \cite \parencite
+
+% disclosure footnote
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\addbibresource{zotero_references.bib}
+\addbibresource{bibliography.bib}
+
+\title{Case Study: A discussion of Post-operative and Pre-operative management of a patient undergoing total hip replacement for a fractured neck of femur}
+\shorttitle{pre and post operative management of THR}
+\author{Austin Paul}
+\affiliation{RMIT UNIVERSITY \\ s3634517 \\ Word Count : 986}
+
+
+
+
+\begin{document}
+
+\maketitle
+
+\section{}
+\section{Introduction} %50
+%
+\blfootnote{*I had done this Case study before and had received instructor feedback on it and therefore may have an advantage over students who may not have done so before.}
+%state about pre and postop care. dont refer
+This case study attempts to discuss 
+
+
+
+%%%***preop***%%
+
+\section{Preoperative care} %700
+
+%%%***postop***%%
+
+
+\section{} %700
+
+
+
+
+\newpage
+\section{Conclusion}%50
+
+
+
+%\printbibliography
+
+\end{document}
